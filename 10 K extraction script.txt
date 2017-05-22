@@ -1,0 +1,37 @@
+install.packages("edgar")
+library(edgar)
+2016-06-22
+
+getwd()
+setwd("C:\\Users\\sudhanshu\\Desktop\\Springboard\\10K")
+
+getDailyMaster("06/22/2016") #mm/dd/yyyy
+
+getMasterIndex(c(1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016))
+
+getFilingInfo("NetAppInc", 2016)
+
+
+test = getFilings(1994, 0001002047,"10-K")
+test = getFilings(1995, 0001002047,"10-K")
+test = getFilings(1996, 0001002047,"10-K")
+test = getFilings(1997, 0001002047,"10-K")
+test = getFilings(1998, 0001002047,"10-K")
+test = getFilings(1999, 0001002047,"10-K")
+test = getFilings(2000, 0001002047,"10-K")
+test = getFilings(2001, 0001002047,"10-K")
+test = getFilings(2002, 0001002047,"10-K")
+test = getFilings(2003, 0001002047,"10-K")
+test = getFilings(2004, 0001002047,"10-K")
+test = getFilings(2005, 0001002047,"10-K")
+test = getFilings(2006, 0001002047,"10-K")
+test = getFilings(2007, 0001002047,"10-K")
+test = getFilings(2008, 0001002047,"10-K")
+test = getFilings(2009, 0001002047,"10-K")
+test = getFilings(2010, 0001002047,"10-K")
+test = getFilings(2011, 0001002047,"10-K")
+test = getFilings(2012, 0001002047,"10-K")
+test = getFilings(2013, 0001002047,"10-K")
+test = getFilings(2014, 0001002047,"10-K")
+test = getFilings(2015, 0001002047,"10-K")
+test = getFilings(2016, 0001002047,"10-K")
